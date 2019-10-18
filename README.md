@@ -15,6 +15,7 @@
   * [lightsocks.sh](#lightsockssh)
   * [mtproxy.sh](#mtproxysh)
   * [mtproxy_go.sh](#mtproxy_gosh)
+  * [mtg.sh](#mtg)
 * [***中转相关***](#中转相关)
   * [iptables-pf.sh](#iptables-pfsh)
   * [brook-pf.sh](#brook-pfsh)
@@ -188,7 +189,20 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ```
 
 ---
+## mtg.sh
+#### 下载安装:
+``` bash
+bash <(wget -qO- https://git.io/mtg.sh)
+```
+#### 卸载:
+``` bash
+systemctl stop mtg && systemctl disable mtg
+rm -f /usr/local/bin/mtg /lib/systemd/system/mtg.service /etc/mtg.conf
+```
 
+
+
+---
 ## 中转相关
 
 ## iptables-pf.sh
