@@ -15,7 +15,7 @@
   * [lightsocks.sh](#lightsockssh)
   * [mtproxy.sh](#mtproxysh)
   * [mtproxy_go.sh](#mtproxy_gosh)
-  * [mtg.sh](#mtg)
+  * [mtg.sh](#mtgsh)
 * [***中转相关***](#中转相关)
   * [iptables-pf.sh](#iptables-pfsh)
   * [brook-pf.sh](#brook-pfsh)
