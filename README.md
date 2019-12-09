@@ -29,7 +29,7 @@
   * [pserver.sh](#pserversh)
 * [***服务器相关***](#服务器相关)
   * [bbr.sh](#bbrsh)
-  * [bbrv.sh](#bbrvsh)
+  * [bbr-v.sh](#bbrvsh)
   * [status.sh](#statussh)
   * [ban_iptables.sh](#ban_iptablessh)
   * [ssh_port.sh](#ssh_portsh)
@@ -388,7 +388,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ```
 
 ---
-## bbrv.sh
+## bbr-v.sh
 
 - 脚本说明: bbr 魔改版
 - 系统支持: CentOS6+ / Debian7+ 
