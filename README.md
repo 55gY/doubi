@@ -9,6 +9,7 @@
   * [ss-go.sh](#ss_gosh)
   * [ssr.sh](#ssrsh)
   * [ssrmu.sh](#ssrmush)
+  * [shadowsocks-all](#shadowsocks-all)
   * [brook.sh](#brooksh)
   * [goflyway.sh](#goflywaysh)
   * [daze.sh](#dazesh)
@@ -115,7 +116,71 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ``` bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
 ```
+---
+## shadowsocks-all.sh
 
+- 脚本说明: 秋水逸冰Shadowsocks ShadowsocksR 4合一，一键安装脚本
+- 系统支持: CentOS6+ / Debian7+ / Ubuntu12+
+- 使用方法: https://appso.github.io/2018/11/21/Shadowsocks-install/
+- 项目地址: https://github.com/teddysun/shadowsocks_install
+
+#### 脚本特点:
+Shadowsocks 四合一脚本（shadowsocks-all.sh）是秋水逸冰开发并维护的一个 Shadowsocks 脚本，该脚本支持一键安装 Shadowsocks-Python、ShadowsocksR、Shadowsocks-Go 和 Shadowsocks-libev
+
+#### 下载安装:
+``` bash
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.sh
+```
+``` bash
+chmod +x shadowsocks-all.sh
+```
+``` bash
+./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
+```
+#### 脚本说明:
+Shadowsocks-Python 版：
+##### 命令:
+``` bash
+/etc/init.d/shadowsocks-python start | stop | restart | status
+```
+##### 配置文件:
+``` bash
+/etc/shadowsocks-python/config.json
+```
+---
+ShadowsocksR 版：
+##### 命令:
+``` bash
+/etc/init.d/shadowsocks-r start | stop | restart | status
+```
+##### 配置文件:
+``` bash
+/etc/shadowsocks-r/config.json
+```
+---
+Shadowsocks-Go 版：
+##### 命令:
+``` bash
+/etc/init.d/shadowsocks-go start | stop | restart | status
+```
+##### 配置文件:
+``` bash
+/etc/shadowsocks-go/config.json
+```
+---
+Shadowsocks-libev 版：
+##### 命令:
+``` bash
+/etc/init.d/shadowsocks-libev start | stop | restart | status
+```
+##### 配置文件:
+``` bash
+/etc/shadowsocks-libev/config.json
+```
+#### 脚本卸载:
+``` bash
+./shadowsocks-all.sh uninstall
+```
 ---
 ## brook.sh
 
