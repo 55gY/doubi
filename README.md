@@ -141,7 +141,6 @@ chmod +x shadowsocks-all.sh
 ```
 #### 脚本说明:
 - Shadowsocks-Python 版：
-命令:
 ``` bash
 /etc/init.d/shadowsocks-python start | stop | restart | status
 ```
@@ -151,7 +150,6 @@ chmod +x shadowsocks-all.sh
 ```
 ---
 - ShadowsocksR 版：
-命令:
 ``` bash
 /etc/init.d/shadowsocks-r start | stop | restart | status
 ```
@@ -161,7 +159,6 @@ chmod +x shadowsocks-all.sh
 ```
 ---
 - Shadowsocks-Go 版：
-命令:
 ``` bash
 /etc/init.d/shadowsocks-go start | stop | restart | status
 ```
@@ -171,7 +168,6 @@ chmod +x shadowsocks-all.sh
 ```
 ---
 - Shadowsocks-libev 版：
-命令:
 ``` bash
 /etc/init.d/shadowsocks-libev start | stop | restart | status
 ```
