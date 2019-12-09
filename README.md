@@ -181,11 +181,11 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 
 - 脚本说明: Mtproto Proxy Go版 一键安装管理脚本
 - 系统支持: CentOS6+ / Debian7+ / Ubuntu14+
-- 使用方法: https://doub.io/shell-jc9/
+- 使用方法: https://github.com/whunt1/onekeymakemtg
 
 #### 下载安装:
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/mtproxy_go.sh && chmod +x mtproxy_go.sh && bash mtproxy_go.sh
+wget -N --no-check-certificate https://github.com/whunt1/onekeymakemtg/raw/master/mtproxy_go.sh && chmod +x mtproxy_go.sh && bash mtproxy_go.sh
 ```
 
 ---
