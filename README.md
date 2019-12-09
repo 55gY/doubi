@@ -29,6 +29,7 @@
   * [pserver.sh](#pserversh)
 * [***服务器相关***](#服务器相关)
   * [bbr.sh](#bbrsh)
+  * [bbrv.sh](#bbrvsh)
   * [status.sh](#statussh)
   * [ban_iptables.sh](#ban_iptablessh)
   * [ssh_port.sh](#ssh_portsh)
@@ -46,7 +47,7 @@
   * [ssrstatus.sh](#ssrstatussh)
   * [ssr_check.sh](#ssr_checksh)
   * [ssr_ip_check.sh](#ssr_ip_checksh)
-  * [bbr.sh](#bbrsh)
+
 
 ---
 
@@ -387,6 +388,23 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ```
 
 ---
+## bbrv.sh
+
+- 脚本说明: bbr 魔改版
+- 系统支持: CentOS6+ / Debian7+ 
+- 使用方法: 运行命令选择安装内核 --> 选择no --> reboot重启 --> 再次运行命令选择安装算法
+
+#### Debian:
+``` bash
+wget --no-check-certificate https://github.com/tcp-nanqinlang/general/releases/download/3.4.2.1/tcp_nanqinlang-fool-1.3.0.sh
+bash tcp_nanqinlang-fool-1.3.0.sh
+```
+#### CentOS:
+``` bash
+wget --no-check-certificate https://raw.githubusercontent.com/tcp-nanqinlang/general/master/General/CentOS/bash/tcp_nanqinlang-1.3.2.sh
+bash tcp_nanqinlang-1.3.2.sh
+```
+---
 ## status.sh
 
 - 脚本说明: ServerStatus 一键安装管理脚本
@@ -585,21 +603,5 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ```
 
 ---
-## bbr.sh
 
-- 脚本说明: bbr 魔改版
-- 系统支持: CentOS6+ / Debian7+ 
-- 使用方法: 运行命令选择安装内核 --> 选择no --> reboot重启 --> 再次运行命令选择安装算法
-
-#### Debian:
-``` bash
-wget --no-check-certificate https://github.com/tcp-nanqinlang/general/releases/download/3.4.2.1/tcp_nanqinlang-fool-1.3.0.sh
-bash tcp_nanqinlang-fool-1.3.0.sh
-```
-#### CentOS:
-``` bash
-wget --no-check-certificate https://raw.githubusercontent.com/tcp-nanqinlang/general/master/General/CentOS/bash/tcp_nanqinlang-1.3.2.sh
-bash tcp_nanqinlang-1.3.2.sh
-```
----
 Copyright (C) 2016-2018 Toyo <https://doub.io>
