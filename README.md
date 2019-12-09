@@ -140,42 +140,42 @@ chmod +x shadowsocks-all.sh
 ./shadowsocks-all.sh 2>&1 | tee shadowsocks-all.log
 ```
 #### 脚本说明:
-Shadowsocks-Python 版：
-##### 命令:
+- Shadowsocks-Python 版：
+命令:
 ``` bash
 /etc/init.d/shadowsocks-python start | stop | restart | status
 ```
-##### 配置文件:
+配置文件:
 ``` bash
 /etc/shadowsocks-python/config.json
 ```
 ---
-ShadowsocksR 版：
-##### 命令:
+- ShadowsocksR 版：
+命令:
 ``` bash
 /etc/init.d/shadowsocks-r start | stop | restart | status
 ```
-##### 配置文件:
+配置文件:
 ``` bash
 /etc/shadowsocks-r/config.json
 ```
 ---
-Shadowsocks-Go 版：
-##### 命令:
+- Shadowsocks-Go 版：
+命令:
 ``` bash
 /etc/init.d/shadowsocks-go start | stop | restart | status
 ```
-##### 配置文件:
+配置文件:
 ``` bash
 /etc/shadowsocks-go/config.json
 ```
 ---
-Shadowsocks-libev 版：
-##### 命令:
+- Shadowsocks-libev 版：
+命令:
 ``` bash
 /etc/init.d/shadowsocks-libev start | stop | restart | status
 ```
-##### 配置文件:
+配置文件:
 ``` bash
 /etc/shadowsocks-libev/config.json
 ```
