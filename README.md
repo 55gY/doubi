@@ -9,7 +9,7 @@
   * [ss-go.sh](#ss_gosh)
   * [ssr.sh](#ssrsh)
   * [ssrmu.sh](#ssrmush)
-  * [shadowsocks-all](#shadowsocks-allsh)
+  * [ssr-all](#shadowsocks-allsh)
   * [brook.sh](#brooksh)
   * [goflyway.sh](#goflywaysh)
   * [daze.sh](#dazesh)
